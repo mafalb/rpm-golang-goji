@@ -33,6 +33,7 @@ Source0:        %{gosource}
 %prep
 %goprep
 
+%build
 
 %install
 %gopkginstall
