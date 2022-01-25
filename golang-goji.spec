@@ -2,7 +2,6 @@
 %bcond_without check
 %global debug_package %{nil}
 
-# https://github.com/goji/goji
 %global goipath goji.io
 %global gourl https://github.com/goji/goji
 Version: 2.0.2
