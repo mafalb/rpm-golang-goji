@@ -2,14 +2,11 @@
 %bcond_without check
 %global debug_package %{nil}
 
-# https://github.com/goji/goji
 %global goipath goji.io
 %global gourl https://github.com/goji/goji
 Version: 2.0.2
 
 %gometa
-
-#global goaltipaths     goji.io goji.io/internal goji.io/middleware goji.io/pat goji.io/pattern
 
 %global common_description %{expand:
 Goji is a minimalistic and flexible HTTP request multiplexer for Go (golang).}
@@ -46,5 +43,5 @@ Source0:        %{gosource}
 %gopkgfiles
 
 %changelog
-* Sun Jan 23 2022 Markus Falb <jeremy@mafalb.at> - 3.0.0-1
+* Sun Jan 23 2022 Markus Falb <jeremy@mafalb.at> - 2.0.2-1
 - Initial package
